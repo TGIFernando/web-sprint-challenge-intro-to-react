@@ -7,7 +7,7 @@ function Character(props){
     const {img} = props
     const {name} = props
     const {gen} = props
-    const {age} = props
+    const {planet} = props
 
     const MainDiv = styled.div`
     border: 2px solid blue;
@@ -27,7 +27,7 @@ function Character(props){
                 <img src = {img}></img>
             </div>
             <h3>Sex: {gen}</h3>
-            <h3>Age: {age}</h3>
+            <h3>Planet: {planet}</h3>
             </div>
         </MainDiv>
     )
